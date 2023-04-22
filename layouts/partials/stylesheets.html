@@ -1,5 +1,9 @@
 {{ $css := resources.Get "css/main.css" | minify | fingerprint "sha512" }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="" />
+<link
+  rel="stylesheet"
+  href="{{ $css.RelPermalink }}"
+  integrity="{{ $css.Data.Integrity }}"
+/>
 {{ $noscript_css := resources.Get "css/noscript.css" | minify | fingerprint
 "sha512" }}
 <noscript
