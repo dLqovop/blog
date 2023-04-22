@@ -166,3 +166,5 @@ unsafe= true
 
 [paramx.assets]
 disableFingerprinting = true
+
+params.assets.disableFingerprinting = true
