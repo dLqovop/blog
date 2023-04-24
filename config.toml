@@ -131,7 +131,7 @@ text = "Activate" #얘는 post 페이지로 넘어가는 걸로.
 special = true
 
 [[params.cta.link]]
-href = "posts/2021208025-문지현"
+href = "/posts/2021208025-문지현/"
 text = "Learn More" #얘는 바로 자기소개서 가는걸로
 special = false
 
